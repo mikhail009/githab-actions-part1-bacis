@@ -31,8 +31,11 @@ jobs:
     - name: List current folder
       run  : ls -la
       
-    - name: Lets test some package iof the are here
+    - name: Lets test some package if they are here 1
       run : aws --version
+      
+    - name: Lets test some package if they are here 2
+      run : zip
         
   my_deploy: 
     runs-on: ubuntu-latest
