@@ -12,7 +12,7 @@ on:
 
 jobs:
   my_testing:
-    runs-on: ubuntu-latestsdsd
+    runs-on: ubuntu-latest
     
     steps:
     - name: Hello massage
@@ -39,7 +39,7 @@ jobs:
       run : zip --version
         
   my_deploy: 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest2323
     needs: [my_testing]
     env:
       VAR1 : "This is Job Level  Variable1"
