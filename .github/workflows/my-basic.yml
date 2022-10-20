@@ -4,7 +4,7 @@ name: My-GitHabFctions-Bacis
 on: 
   push:
     branches: 
-      - master
+      - main
 
 jobs:
   my_testing:
