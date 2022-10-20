@@ -30,6 +30,9 @@ jobs:
       
     - name: List current folder
       run  : ls -la
+      
+    - name: Lets test some package iof the are here
+      run : aws --version
         
   my_deploy: 
     runs-on: ubuntu-latest
