@@ -35,7 +35,7 @@ jobs:
       run : aws --version
       
     - name: Lets test some package if they are here 2
-      run : zip
+      run : zip --version
         
   my_deploy: 
     runs-on: ubuntu-latest
