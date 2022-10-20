@@ -39,8 +39,8 @@ jobs:
       run : zip --version
         
   my_deploy: 
-    runs-on: ubuntu-latest2323
-    needs: [my_testing]
+    runs-on: ubuntu-latest
+    needsf: [my_testing]
     env:
       VAR1 : "This is Job Level  Variable1"
       VAR2 : "This is Job Level  Variable2"
